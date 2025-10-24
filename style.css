@@ -1,0 +1,74 @@
+.header{
+    position:fixed;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-image:url('https://developer.android.com/static/images/design/ui/mobile/system-bars-hero.png') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nav-bar{
+    padding:10px 0;
+    text-align:center;
+}
+.nav-bar ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.nav-bar li{
+    display:inline-block;
+    margin:0 15px;
+}
+.nav-bar a{
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition:0.3s;
+}
+.nav-bar a:hover{
+    color: #ff6347;
+    border-radius: 5px;
+}
+.letsgo{
+    border-radius: 25px;
+    height:30px;
+    width:80px;
+    background-color: white;
+}
+.button button{
+    border-radius: 50px;
+    width:80px;
+    height:30px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: white;
+}
+.notification{
+    position:relative;
+}
+.notification-button{
+    font-size: 30px;
+    background:none;
+    border:none;
+    cursor:pointer;
+    position:relative;
+}
+.badge{
+    position:absolute;
+    top:-8px;
+    right:-8px;
+    color: red;
+    font-size:12px;
+    font-weight:bold;
+    padding:3px 7px;
+    border-radius: 50%;
+}
+.header-right{
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
